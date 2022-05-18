@@ -5,8 +5,16 @@ Le noyau original ne contient pas les modules permettant le bon fonctionnement d
 Il est donc nécessaire de recompiler le noyau afin d'ajouter le module.
 
 à partir d'une realease NORNS :
-```
 
+[Images SD Norns](https://github.com/monome/norns-image/releases)
+
+On flash une carte SD avec le logiciel Balena ETCHER : 
+
+[Balena Etcher](https://www.balena.io/etcher/)
+
+On etend la partition pour travailler à l'aise !
+```
+sudo raspi-config
 ```
 
 ### Récupération du noyau :
