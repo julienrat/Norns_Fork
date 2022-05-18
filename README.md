@@ -2,10 +2,12 @@
 depot Norns installation Damien Skoraki
 ## Modification du Kernel Original
 Le noyau original ne contient pas les modules permettant le bon fonctionnement du chapeau HIFIBERRY.
-
 Il est donc nécessaire de recompiler le noyau afin d'ajouter le module.
 
 à partir d'une realease NORNS :
+```
+
+```
 
 ### Récupération du noyau :
 
