@@ -6,6 +6,7 @@ La doc est ici :
 
 ## Modification du Kernel Original
 Le noyau original  de norns ne contient pas les modules permettant le bon fonctionnement du chapeau HIFIBERRY, mais contient les modules de l'ecran !
+
 D'autres noyaux sont présents dans la distribution officielle de Norns .... mais sans les modules de l'écran !
 
 D'où le casse tete ! donc 2 solutions !
