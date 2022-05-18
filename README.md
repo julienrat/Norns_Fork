@@ -3,12 +3,13 @@ depot Norns installation Damien Skoraki
 ## Modification du Kernel Original
 Le noyau original  de norns ne contient pas les modules permettant le bon fonctionnement du chapeau HIFIBERRY, mais contient les modules de l'ecran !
 Ces modules sont présents dans les différents noyaux de la distribution originale .... mais sans les modules de l'écran !
-D'où le casse tete !
 
-- Recompiler un noyau vierge sur une install vierge au risque de louper des trucs
-- Partir du  dernier noyau de l'installation y ajouter l'écran en bénéficiant des modules installés d'office pour ce noyau et garder tous les fichiers de config de l'installation
+D'où le casse tete ! donc 2 solutions !
 
-J'ai décidé de choisir le seconde option ! on pars de l'existant ! et si ça bouge ce sera facile d'upgrader une image des familles !
+- Recompiler un noyau vierge sur une install vierge au risque de louper des trucs en s'inspirant du [vieux tuto](https://github.com/okyeron/norns-image/wiki/1.-Norns-2.0-Full-Build-on-RasPi)
+- Partir du  dernier noyau de l'installation y ajouter l'écran en bénéficiant des modules installés d'office pour ce noyau et garder tous les fichiers de config de l'installation en s'inpirant de ce [tuto vieux aussi :D](https://github.com/okyeron/norns-image/wiki/Reference:--Compile-OLED-display-drivers)
+
+J'ai décidé de choisir le seconde option ! on pars de l'existant, on modifie le vieux tuto ! et si ça bouge ce sera facile d'upgrader une image des familles !
 
 DONC :
 
