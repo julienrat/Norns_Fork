@@ -16,9 +16,9 @@ D'où le casse tete ! donc 2 solutions !
 
 J'ai décidé de choisir le seconde option ! on pars de l'existant, on modifie le vieux tuto ! et si ça bouge ce sera facile d'upgrader une image des familles !
 
-DONC :
+**DONC :**
 
-à partir d'une realease NORNS :
+à partir de la realease NORNS **norns 220306**  :
 
 [Images SD Norns](https://github.com/monome/norns-image/releases)
 
