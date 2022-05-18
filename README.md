@@ -1,8 +1,16 @@
 # Norns_Fork
 depot Norns installation Damien Skoraki
 ## Modification du Kernel Original
-Le noyau original ne contient pas les modules permettant le bon fonctionnement du chapeau HIFIBERRY.
-Il est donc nécessaire de recompiler le noyau afin d'ajouter le module.
+Le noyau original  de norns ne contient pas les modules permettant le bon fonctionnement du chapeau HIFIBERRY, mais contient les modules de l'ecran !
+Ces modules sont présents dans les différents noyaux de la distribution originale .... mais sans les modules de l'écran !
+D'où le casse tete !
+
+- Recompiler un noyau vierge sur une install vierge au risque de louper des trucs
+- Partir du  dernier noyau de l'installation y ajouter l'écran en bénéficiant des modules installés d'office pour ce noyau et garder tous les fichiers de config de l'installation
+
+J'ai décidé de choisir le seconde option ! on pars de l'existant ! et si ça bouge ce sera facile d'upgrader une image des familles !
+
+DONC :
 
 à partir d'une realease NORNS :
 
@@ -21,12 +29,7 @@ On etend la partition pour travailler à l'aise !
 ```
 sudo raspi-config
 ```
-
-### Récupération du noyau :
-
-```
-git clone --depth=1 https://github.com/raspberrypi/linux
-```
+et on reboot !
 
 ### Installation des paquets de compilation 
 ```
@@ -39,6 +42,16 @@ sudo apt install build-essential fakeroot dpkg-dev perl libssl-dev bc gnupg dirm
 ```
 #kernel=gnagnagna
 ```
+et on reboot !
+
+### Récupération du noyau :
+
+```
+git clone --depth=1 https://github.com/raspberrypi/linux
+```
+
+
+
 ### On compile
 on va récupérer les fichiers de config
 ```
@@ -63,6 +76,8 @@ make -j4 prepare
 make -j4 -C ~/linux SUBDIRS=drivers/staging/fbtft modules
 
 ```
+on attends 1 heure ...
+
 ### Copie des modules et test
 On va copier les modules au bon endroit
 ```
