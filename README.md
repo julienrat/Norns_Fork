@@ -1,5 +1,8 @@
 # Norns_Fork
 depot Norns installation Damien Skoraki
+L'idée principale est de forker l'officiel NORNS avec un chapeau hifiberry DAC ADC Pro...
+
+
 ## Modification du Kernel Original
 Le noyau original  de norns ne contient pas les modules permettant le bon fonctionnement du chapeau HIFIBERRY, mais contient les modules de l'ecran !
 Ces modules sont présents dans les différents noyaux de la distribution originale .... mais sans les modules de l'écran !
@@ -78,10 +81,10 @@ make -j4 prepare
 make -j4 -C ~/linux SUBDIRS=drivers/staging/fbtft modules
 
 ```
-on attends 1 heure ...
+on attends 2-3 heures ...
 
 ### Copie des modules et test
-On va copier les modules au bon endroit
+On va copier les modules compilés au bon endroit
 ```
 sudo cp -v ~/linux/drivers/staging/fbtft/*.ko /lib/modules/$(uname -r)/kernel/drivers/staging/fbtft/
 
