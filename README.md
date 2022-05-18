@@ -2,6 +2,7 @@
 depot Norns installation Damien Skoraki
 L'idée principale est de forker l'officiel NORNS avec un chapeau hifiberry DAC ADC Pro...
 
+La doc est ici :
 
 ## Modification du Kernel Original
 Le noyau original  de norns ne contient pas les modules permettant le bon fonctionnement du chapeau HIFIBERRY, mais contient les modules de l'ecran !
