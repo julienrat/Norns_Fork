@@ -7,14 +7,15 @@ Il est donc nécessaire de recompiler le noyau afin d'ajouter le module.
 
 à partir d'une realease NORNS :
 
-###Récupération du noyau :
-'''
-git clone --depth=1 https://github.com/monome/linux
-'''
+### Récupération du noyau :
 
-###Installation des paquets de compilation 
-'''
+```
+git clone --depth=1 https://github.com/monome/linux
+```
+
+### Installation des paquets de compilation 
+```
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install flex bison raspberrypi-kernel-headers
-'''
+```
