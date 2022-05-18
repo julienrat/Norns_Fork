@@ -40,6 +40,7 @@ sudo apt-get install flex bison raspberrypi-kernel-headers
 sudo apt install build-essential fakeroot dpkg-dev perl libssl-dev bc gnupg dirmngr libncurses5-dev libelf-dev 
 ```
 ### On commente la derniere ligne du fichier /boot/config.txt
+On va commenter cette ligne pour lancer la derniere version du kernel connue ! et non celle bidouillée par NORNS
 ```
 #kernel=gnagnagna
 ```
