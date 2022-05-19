@@ -1,6 +1,6 @@
 # Norns_Fork
 depot Norns installation Damien Skoraki
-L'idée principale est de forker l'officiel NORNS pour la sublimer, la destructurer et la revisiter avec un chapeau hifiberry DAC ADC Pro et des composants pas trop coûteux...
+L'idée principale est de forker l'officiel NORNS pour **la sublimer, la destructurer et la revisiter** avec un chapeau hifiberry DAC ADC Pro et des composants pas trop coûteux...
 ![Norns destructuré](https://github.com/julienrat/Norns_Fork/blob/main/images/norns_poc.jpg)
 La doc est ici :
 
@@ -14,7 +14,7 @@ D'où le casse tete ! donc 2 solutions !
 - Recompiler un noyau vierge sur une install vierge au risque de louper des trucs en s'inspirant du [vieux tuto](https://github.com/okyeron/norns-image/wiki/1.-Norns-2.0-Full-Build-on-RasPi)
 - Partir du  dernier noyau de l'installation y ajouter l'écran en bénéficiant des modules installés d'office pour ce noyau et garder tous les fichiers de config de l'installation en s'inpirant de ce [tuto vieux aussi :D](https://github.com/okyeron/norns-image/wiki/Reference:--Compile-OLED-display-drivers)
 
-J'ai décidé de choisir le seconde option ! on pars de l'existant, on modifie le vieux tuto ! et si ça bouge ce sera facile d'upgrader une image des familles !
+J'ai décidé de choisir la seconde option ! on pars de l'existant, on modifie le vieux tuto ! et si ça bouge ce sera facile d'upgrader une image des familles !
 
 **DONC :**
 
@@ -96,8 +96,8 @@ et zou on teste !
 ```
 sudo modprobe fbtft custom name=fb_ssd1322 debug=1 speed=16000000 gpios=reset:15,dc:14
 ```
-### on va tweaker !
-L'ecran est desormais monté sur /dev/fb1 au lieu de /dev/fb0, il va falloir modifier la configuration de **matron** interface graphique, pour rediriger l'affichage sur le bon point de montage :
+### On va tweaker !
+L'écran est desormais monté sur /dev/fb1 au lieu de /dev/fb0, il va falloir modifier la configuration de **matron** interface graphique, pour rediriger l'affichage sur le bon point de montage :
 
 On édite
 
