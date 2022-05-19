@@ -1,5 +1,5 @@
 # Norns_Fork
-depot Norns installation Damien Skoraki
+Dépôt Norns - installation Damien Skoraki
 L'idée principale est de forker l'officiel NORNS pour **la sublimer, la destructurer et la revisiter** avec un chapeau hifiberry DAC ADC Pro et des composants pas trop coûteux...
 ![Norns destructuré](https://github.com/julienrat/Norns_Fork/blob/main/images/norns_poc.jpg)
 La doc est ici :
