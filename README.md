@@ -83,7 +83,7 @@ make -j4 prepare
 make -j4 -C ~/linux SUBDIRS=drivers/staging/fbtft modules
 
 ```
-on attends 2-3 heures ...
+on attends 3-4 heures ...
 
 ### Copie des modules et test
 On va copier les modules compilés au bon endroit
@@ -94,6 +94,19 @@ sudo depmod -a
 ```
 et zou on teste !
 ```
-sudo modprobe fbtft_device custom name=fb_sh1106 debug=1 speed=2000000 gpios=reset:15,dc:14
-sudo modprobe fbtft_device custom name=fb_ssd1322 debug=1 speed=16000000 gpios=reset:15,dc:14
+sudo modprobe fbtft custom name=fb_ssd1322 debug=1 speed=16000000 gpios=reset:15,dc:14
 ```
+### on va tweaker !
+L'ecran est desormais monté sur /dev/fb1 au lieu de /dev/fb0, il va falloir modifier la configuration de **matron** interface graphique, pour rediriger l'affichage sur le bon point de montage :
+
+On édite
+
+```
+nano ~/norns/matronrc.lua
+```
+et on change la ligne 2 pour pointer sur /dev/fb1
+
+```
+_boot.add_io('screen:fbdev', {dev='/dev/fb1'})
+```
+On reboot et voilà !
