@@ -4,6 +4,9 @@ from machine import Pin, SoftSPI # for display and buttons
 from fonts.romfonts import vga1_bold_16x32 as font
 from fonts.romfonts import vga1_8x16 as font2
 import os
+
+
+#Bloc de connexion au réseau Wifi
 import network
 import time
 
@@ -14,6 +17,9 @@ sta_if.connect('norns','nnnnnnnn')
 print("Waiting for Wifi connection")
 while not sta_if.isconnected(): time.sleep(1)
 print("Connected")
+# fin du bloc à copier
+
+
 
 spi = SoftSPI(
         baudrate=20000000,
