@@ -49,7 +49,16 @@ On va commenter cette ligne pour lancer la derniere version du kernel connue ! e
 ```
 #kernel=gnagnagna
 ```
-et on reboot !
+et pendant qu'on est sur le fichier, on va commenter la ligne :
+```
+#dtoverlay=monome-snd-4271
+```
+et ajouter ces deux lignes pour utiliser la carte son du hifiberry adcplusdac-pro
+```
+dtoverlay=hifiberry-dacplusadcpro
+force_eeprom_read=0
+```
+et on reboot ! et on jete un coup d'oeil sur la carte hifiberry, normalement les leds rouges doivent scintiller...
 
 ### Récupération du noyau pour compiler les modules:
 
