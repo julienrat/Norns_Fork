@@ -1,7 +1,7 @@
 # Norns_Fork
 depot Norns installation Damien Skoraki
 L'idée principale est de forker l'officiel NORNS avec un chapeau hifiberry DAC ADC Pro...
-
+![Norns destructuré](https://github.com/julienrat/Norns_Fork/blob/main/images/norns_poc.jpg)
 La doc est ici :
 
 ## Modification du Kernel Original
