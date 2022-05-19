@@ -9,7 +9,7 @@ Le noyau original  de norns ne contient pas les modules permettant le bon foncti
 
 D'autres noyaux sont présents dans la distribution officielle de Norns .... mais sans les modules de l'écran !
 
-D'où le casse tete ! donc 2 solutions !
+D'où le casse tête ! donc 2 solutions !
 
 - Recompiler un noyau vierge sur une install vierge au risque de louper des trucs en s'inspirant du [vieux tuto](https://github.com/okyeron/norns-image/wiki/1.-Norns-2.0-Full-Build-on-RasPi)
 - Partir du  dernier noyau de l'installation y ajouter l'écran en bénéficiant des modules installés d'office pour ce noyau et garder tous les fichiers de config de l'installation en s'inpirant de ce [tuto vieux aussi :D](https://github.com/okyeron/norns-image/wiki/Reference:--Compile-OLED-display-drivers)
@@ -18,7 +18,7 @@ J'ai décidé de choisir la seconde option ! on pars de l'existant, on modifie l
 
 **DONC :**
 
-à partir de la realease NORNS **norns 220306**  :
+À partir de la realease NORNS **norns 220306**  :
 
 [Images SD Norns](https://github.com/monome/norns-image/releases)
 
@@ -31,7 +31,7 @@ On flash une carte SD avec le logiciel Balena ETCHER :
 ssh we@<adresse_ip>
 Mot de passe : sleep
 ```
-On etend la partition pour travailler à l'aise !
+On étend la partition pour travailler à l'aise !
 ```
 sudo raspi-config
 ```
@@ -51,7 +51,7 @@ On va commenter cette ligne pour lancer la derniere version du kernel connue ! e
 ```
 et on reboot !
 
-### Récupération du noyau :
+### Récupération du noyau pour compiler les modules:
 
 ```
 git clone --depth=1 https://github.com/raspberrypi/linux
@@ -69,7 +69,7 @@ ensuite on lance le menuconfig
 ```
 make menuconfig
 ```
-et on active l'ecran !
+et on active l'écran !
 
 ```
 Device Drivers  ---> Staging Drivers ---> Support for small TFT LCD display modules  --->
@@ -95,7 +95,9 @@ sudo depmod -a
 et zou on teste !
 ```
 sudo modprobe fbtft custom name=fb_ssd1322 debug=1 speed=16000000 gpios=reset:15,dc:14
+dmesg
 ```
+
 ### On va tweaker !
 L'écran est desormais monté sur /dev/fb1 au lieu de /dev/fb0, il va falloir modifier la configuration de **matron** interface graphique, pour rediriger l'affichage sur le bon point de montage :
 
