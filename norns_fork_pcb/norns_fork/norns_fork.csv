@@ -1,74 +1,21 @@
-"Source:","/home/julius/Developpement/norns/norns_fork_pcb/norns_fork/norns_fork.kicad_sch"
-"Date:","mar. 24 mai 2022 17:23:54"
-"Tool:","Eeschema (6.0.4)"
-"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
-"Component Count:","43"
-
-"Individual Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","SKU","automotive","category","current rating","detent","device class L1","device class L2","device class L3","digikey description","digikey part number","encoder type","height","lead free","library id","manufacturer","mouser description","mouser part number","number of circuits","package","pulses per rev","rohs","temperature range high","temperature range low","voltage rating DC"
-"","","C1","C","Device:C","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","C2","C","Device:C","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","C3","C","Device:C","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","C4","C","Device:C","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","C5","C","Device:C","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","C6","C","Device:C","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","C7","C","Device:C","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","C8","C","Device:C","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","C9","C","Device:C","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","ENC1","PEC11R-4015F-N0024","norns_enc:PEC11R-4015F-N0024","norns_enc:Bourns-PEC11R-4015F-N0024-MFG","https://www.bourns.com/docs/product-datasheets/pec11r.pdf?sfvrsn=bb617cbf_7","","No","Enc","10mA","No","Electromechanical","Switches","Encoders","ROTARY ENCODER MECHANICAL 24PPR","PEC11R-4015F-N0024-ND","Incremental","22.3mm","Yes","5eb90586fce7ecd6","Bourns","Encoders 15mm SHAFT NO SWITCH","652-PEC11R-4015F-N24","1","PTH_ENC_12MM5_13MM4","24","Yes","+70°C","-30°C","5V"
-"","","ENC2","PEC11R-4015F-N0024","norns_enc:PEC11R-4015F-N0024","norns_enc:Bourns-PEC11R-4015F-N0024-MFG","https://www.bourns.com/docs/product-datasheets/pec11r.pdf?sfvrsn=bb617cbf_7","","No","Enc","10mA","No","Electromechanical","Switches","Encoders","ROTARY ENCODER MECHANICAL 24PPR","PEC11R-4015F-N0024-ND","Incremental","22.3mm","Yes","5eb90586fce7ecd6","Bourns","Encoders 15mm SHAFT NO SWITCH","652-PEC11R-4015F-N24","1","PTH_ENC_12MM5_13MM4","24","Yes","+70°C","-30°C","5V"
-"","","ENC3","PEC11R-4015F-N0024","norns_enc:PEC11R-4015F-N0024","norns_enc:Bourns-PEC11R-4015F-N0024-MFG","https://www.bourns.com/docs/product-datasheets/pec11r.pdf?sfvrsn=bb617cbf_7","","No","Enc","10mA","No","Electromechanical","Switches","Encoders","ROTARY ENCODER MECHANICAL 24PPR","PEC11R-4015F-N0024-ND","Incremental","22.3mm","Yes","5eb90586fce7ecd6","Bourns","Encoders 15mm SHAFT NO SWITCH","652-PEC11R-4015F-N24","1","PTH_ENC_12MM5_13MM4","24","Yes","+70°C","-30°C","5V"
-"","","J1","ENC_K1","Connector:Conn_01x05_Male","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","J2","ENC_K2","Connector:Conn_01x05_Male","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","J3","ENC_K3","Connector:Conn_01x05_Male","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","J4","Ecran_SSD1306","Connector:Conn_01x04_Female","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","J5","Conn_audio_headphone","Connector_Generic:Conn_02x03_Counter_Clockwise","Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","J6","conn_headphone_up","Connector_Generic:Conn_02x03_Counter_Clockwise","Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","J7","Conn_audio_INPUT","Connector_Generic:Conn_02x03_Counter_Clockwise","Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","J8","conn_input_up","Connector_Generic:Conn_02x03_Counter_Clockwise","Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","J9","NHD-2.7-12864WDY3","Connector:Conn_01x20_Female","Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","J10","Raspberry_Pi_2_3","Connector:Raspberry_Pi_2_3","Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical","https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","K1","BP_K1","SeeedOPL-Switch:DIP-SWITCH-TACTILE-SPST-NO_TS-1109_4P-D6.0MM_","tactile_switch:SW_PUSH-12mm","","311020024","","","","","","","","","","","","","","","","","","","","","","",""
-"","","K2","BP_K2","SeeedOPL-Switch:DIP-SWITCH-TACTILE-SPST-NO_TS-1109_4P-D6.0MM_","tactile_switch:SW_PUSH-12mm","","311020024","","","","","","","","","","","","","","","","","","","","","","",""
-"","","K3","BP_K3","SeeedOPL-Switch:DIP-SWITCH-TACTILE-SPST-NO_TS-1109_4P-D6.0MM_","tactile_switch:SW_PUSH-12mm","","311020024","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R1","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R2","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R3","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R4","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R5","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R6","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R7","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R8","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R9","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R10","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R11","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R12","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R13","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R14","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R15","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R16","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R17","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"","","R18","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
-
-
-
-"Collated Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","SKU","automotive","category","current rating","detent","device class L1","device class L2","device class L3","digikey description","digikey part number","encoder type","height","lead free","library id","manufacturer","mouser description","mouser part number","number of circuits","package","pulses per rev","rohs","temperature range high","temperature range low","voltage rating DC"
-"1","9","C1, C2, C3, C4, C5, C6, C7, C8, C9","C","Device:C","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"2","3","ENC1, ENC2, ENC3","PEC11R-4015F-N0024","norns_enc:PEC11R-4015F-N0024","norns_enc:Bourns-PEC11R-4015F-N0024-MFG","https://www.bourns.com/docs/product-datasheets/pec11r.pdf?sfvrsn=bb617cbf_7","","No","Enc","10mA","No","Electromechanical","Switches","Encoders","ROTARY ENCODER MECHANICAL 24PPR","PEC11R-4015F-N0024-ND","Incremental","22.3mm","Yes","5eb90586fce7ecd6","Bourns","Encoders 15mm SHAFT NO SWITCH","652-PEC11R-4015F-N24","1","PTH_ENC_12MM5_13MM4","24","Yes","+70°C","-30°C","5V"
-"3","1","J1","ENC_K1","Connector:Conn_01x05_Male","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"4","1","J2","ENC_K2","Connector:Conn_01x05_Male","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"5","1","J3","ENC_K3","Connector:Conn_01x05_Male","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"6","1","J4","Ecran_SSD1306","Connector:Conn_01x04_Female","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"7","1","J5","Conn_audio_headphone","Connector_Generic:Conn_02x03_Counter_Clockwise","Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"8","1","J6","conn_headphone_up","Connector_Generic:Conn_02x03_Counter_Clockwise","Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"9","1","J7","Conn_audio_INPUT","Connector_Generic:Conn_02x03_Counter_Clockwise","Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"10","1","J8","conn_input_up","Connector_Generic:Conn_02x03_Counter_Clockwise","Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"11","1","J9","NHD-2.7-12864WDY3","Connector:Conn_01x20_Female","Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical","~","","","","","","","","","","","","","","","","","","","","","","","",""
-"12","1","J10","Raspberry_Pi_2_3","Connector:Raspberry_Pi_2_3","Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical","https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf","","","","","","","","","","","","","","","","","","","","","","","",""
-"13","1","K1","BP_K1","SeeedOPL-Switch:DIP-SWITCH-TACTILE-SPST-NO_TS-1109_4P-D6.0MM_","tactile_switch:SW_PUSH-12mm","","311020024","","","","","","","","","","","","","","","","","","","","","","",""
-"14","1","K2","BP_K2","SeeedOPL-Switch:DIP-SWITCH-TACTILE-SPST-NO_TS-1109_4P-D6.0MM_","tactile_switch:SW_PUSH-12mm","","311020024","","","","","","","","","","","","","","","","","","","","","","",""
-"15","1","K3","BP_K3","SeeedOPL-Switch:DIP-SWITCH-TACTILE-SPST-NO_TS-1109_4P-D6.0MM_","tactile_switch:SW_PUSH-12mm","","311020024","","","","","","","","","","","","","","","","","","","","","","",""
-"16","18","R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","","","","","","","","","","","","",""
+"Id";"Référence";"Boîtier";"Quantité";"Désignation";"Fournisseur et réf";
+1;"R13,R12,R17,R18,R8,R14,R22,R3,R11,R21,R19,R20,R15,R10,R1,R6,R2,R9,R16,R5,R4,R7";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";22;"10k";;;
+2;"J1";"PinHeader_1x05_P2.54mm_Vertical";1;"ENC_K1";;;
+3;"J6";"PinSocket_2x03_P2.54mm_Vertical";1;"conn_headphone_up";;;
+4;"J4";"PinHeader_1x05_P2.54mm_Vertical";1;"ENC_K4";;;
+5;"C8,C6,C10,C9,C5,C7,C4,C11,C1,C3,C2";"C_Disc_D4.3mm_W1.9mm_P5.00mm";11;"10nF";;;
+6;"J10";"PinHeader_2x20_P2.54mm_Vertical";1;"Raspberry_Pi_2_3";;;
+7;"K2";"SW_PUSH-12mm_Wuerth-430476085716";1;"BP_K2";;;
+8;"J5";"PinSocket_2x03_P2.54mm_Vertical";1;"Conn_audio_headphone";;;
+9;"ENC1";"Bourns-PEC11R-4015F-N0024-MFG";1;"ENC1";;;
+10;"K3";"SW_PUSH-12mm_Wuerth-430476085716";1;"BP_K3";;;
+11;"J9";"PinHeader_1x20_P2.54mm_Vertical";1;"ecran";;;
+12;"ENC2";"Bourns-PEC11R-4015F-N0024-MFG";1;"ENC2";;;
+13;"J11";"PinSocket_1x04_P2.54mm_Vertical";1;"Ecran_SSD1306";;;
+14;"K1";"SW_PUSH-12mm_Wuerth-430476085716";1;"BP_K1";;;
+15;"J7";"PinSocket_2x03_P2.54mm_Vertical";1;"Conn_audio_INPUT";;;
+16;"ENC3";"Bourns-PEC11R-4015F-N0024-MFG";1;"ENC3";;;
+17;"ENC4";"Bourns-PEC11R-4015F-N0024-MFG";1;"ENC4";;;
+18;"J3";"PinHeader_1x05_P2.54mm_Vertical";1;"ENC_K3";;;
+19;"J8";"PinSocket_2x03_P2.54mm_Vertical";1;"conn_input_up";;;
+20;"J2";"PinHeader_1x05_P2.54mm_Vertical";1;"ENC_K2";;;
