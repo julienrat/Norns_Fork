@@ -1,0 +1,34 @@
+_ekO-
+Inventaire besoins                                          J+D
+Dessiner PCB                                                J
+Production / assemblage                                     D
+
+-SySt_v1
+Test Poc Complet Syst                                       J+D      
+Commandes Composants Syst                                   D > OK  (reste écrans chez DigiKey avec demande de prix : cause besoin numéro TVA chez Mouser)
+Définir BOM entretoises laiton                              J       (Avec ET sans carte optionnelle Ampli)
+Production Syst (1ère série de 5 avec rap3b+)               D
+
+-SySt_v2
+Inventaire besoins                                          J+D
+      >>> Alimentation via pin-in
+      >>> Changer switchs par ceux du Fates
+      >>> Nouvelle implantation encodeurs
+Dessiner PCB                                                J
+Production Syst (2èmé série de 5 avec rap4)                 D
+
+_Boites Plexi étanches_
+Inventaire besoins                                          S+D
+Dessiner boites                                             S+D
+Commandes plexi / colles / joints étanches / Inserts...     S+D
+Production boites                                           S+D
+
+Assemblage global                                           D
+
+!!!AUTRES taches importante!!!                              J
+    Compiler Norns_Fork pour raspberry pi 4
+    Documenter et re-déployer Norns Sidekick (brownser) / Orac (appli modulaire avec codes Native Instrument)
+    Allumage / éteignage à chaud Eko + Syst
+    Séquençage allumage + connections automatiques Eko + syst
+    read only ?
+    Latence kernel
