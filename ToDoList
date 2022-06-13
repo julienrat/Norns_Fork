@@ -2,6 +2,7 @@ _ekO-
 Inventaire besoins                                          J+D
 Dessiner PCB                                                J
 Production / assemblage                                     D
+Bibliothèque Fonctions / interprétation capteurs / ...      J+D+F
 
 -SySt_v1
 Test Poc Complet Syst                                       J+D      
@@ -31,8 +32,13 @@ Assemblage global                                           D
 
 !!!AUTRES taches importante!!!                              J
     Compiler Norns_Fork pour raspberry pi 4
-    Documenter et re-déployer Norns Sidekick (brownser) / Orac (appli modulaire avec codes Native Instrument)
+    Documenter et re-déployer Norns Sidekick (brownser) / Orac (appli modulaire avec codes Native Instrument
     Allumage / éteignage à chaud Eko + Syst
     Séquençage allumage + connections automatiques Eko + syst
     read only ?
-    Latence kernel
+    ?? Latence kernel ?? (oui j'en demande peut-être un peu trop;)
+    
+* J > Julien
+* S > Simon
+* D > Damien
+* F > François
