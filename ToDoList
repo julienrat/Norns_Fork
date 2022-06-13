@@ -11,9 +11,13 @@ Production Syst (1ère série de 5 avec rap3b+)               D
 
 -SySt_v2
 Inventaire besoins                                          J+D
-      >>> Alimentation via pin-in
-      >>> Changer switchs par ceux du Fates
-      >>> Nouvelle implantation encodeurs
+      ddd > Alimentation via pin-in
+      ddd > Changer switchs par ceux du Fates
+      ddd > Nouvelle implantation encodeurs
+      jjj > déplacer AUDIO IN d'un pas pour correspondre au header Hifiberry
+      jjj > ajout d'une alimentation externe
+      jjj > revoir le design et ajout sérigraphie/logos
+
 Dessiner PCB                                                J
 Production Syst (2èmé série de 5 avec rap4)                 D
 
