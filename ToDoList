@@ -14,10 +14,15 @@ Production Syst (1ère série de 5 avec rap3b+)               D
 Inventaire besoins                                          J+D
       ddd > Alimentation via pin-in
       ddd > Changer switchs par ceux du Fates
-      ddd > Nouvelle implantation encodeurs
+      ddd > Nouvelle implantation encodeurs (en diagonale)
+      ddd > Implantation carte otion AMP60 pour logement Batterie Anker
+      ddd > Demander Hifiberry pour Amp60 sans header et ADC Dac sans connecteurs audios
+      ddd > arondis aux angles du PCB
       jjj > déplacer AUDIO IN d'un pas pour correspondre au header Hifiberry
-      jjj > ajout d'une alimentation externe
+      jjj > ajout d'une alimentation externe (bornier à visser) et microUSB module Coté cuivre
+      jjj > ajouter repiquage line out Coté cuivre
       jjj > revoir le design et ajout sérigraphie/logos
+      jjj > décaler connecteur écran de 1,27 vers la droite 
 
 PCB + BOM                                                   J
 Production Syst (2èmé série de 5 avec rap4)                 D
