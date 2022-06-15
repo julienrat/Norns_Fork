@@ -1,5 +1,5 @@
 # Dossier PCB Norns Syst et Norns Eko
-![Norns destructuré](https://github.com/julienrat/Norns_Fork/blob/main/images/norns_poc.jpg)
+![Norns Syst](https://raw.githubusercontent.com/julienrat/Norns_Fork/main/norns_fork_pcb/images/PXL_20220614_091715194.jpg)
 
 
 ## Instructions de soudure :
