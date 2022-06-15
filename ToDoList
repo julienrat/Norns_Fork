@@ -1,3 +1,11 @@
+MISSIONS POUR MENER À TERME LE PROJET
+- Définir BOM entretoises laiton (SYST)
+- Compiler Norns_Fork pour raspberry pi 4
+- PCB + BOM (SYST V2)
+- Allumage / éteignage à chaud Eko + Syst ((read only ?))
+- Séquençage allumage + connections automatiques Eko + syst 
+
+
 _ekO-
 Inventaire besoins                                          J+D
 Dessiner PCB                                                J
@@ -11,7 +19,7 @@ Définir BOM entretoises laiton                              J       (Avec ET sa
 Production Syst (1ère série de 5 avec rap3b+)               D
 
 -SySt_v2
-Inventaire besoins                                          J+D
+Inventaire besoins                                          J+D > OK (LISTE ICI)
       ddd > Alimentation via pin-in
       ddd > Changer switchs par ceux du Fates
       ddd > Nouvelle implantation encodeurs (en diagonale)
