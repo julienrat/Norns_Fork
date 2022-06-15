@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/julius/Developpement/norns/norns_fork_pcb/norns_eko/norns_eko/norns_eko.kicad_sch</source>
+    <date>mar. 14 juin 2022 14:51:08</date>
+    <tool>Eeschema (6.0.5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>norns_eko.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>5V</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x10_Male" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="norns_eko.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c25e081e-d760-48a0-94d1-752b2f4aa783</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>3,3V</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x10_Male" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="norns_eko.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2623d0ff-0986-4dec-b80a-388d4cd68088</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>GND</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x10_Male" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="norns_eko.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56a4fc6e-f07a-483e-baed-40c7c1a41450</tstamps>
+    </comp>
+    <comp ref="TTGO1">
+      <value>TTGO_ESP32_TDISPLAY_V1.1</value>
+      <libsource lib="ttgo" part="TTGO_ESP32_TDISPLAY_V1.1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="norns_eko.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f844243c-c44a-4960-8410-db086a2a5099</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x10_Male">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ttgo" part="TTGO_ESP32_TDISPLAY_V1.1">
+      <fields>
+        <field name="Reference">TTGO</field>
+        <field name="Value">TTGO_ESP32_TDISPLAY_V1.1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="5V" type="unspecified"/>
+        <pin num="2" name="GND" type="unspecified"/>
+        <pin num="3" name="GPIO27" type="unspecified"/>
+        <pin num="4" name="GPIO26" type="unspecified"/>
+        <pin num="5" name="GPIO25" type="unspecified"/>
+        <pin num="6" name="GPIO33" type="unspecified"/>
+        <pin num="7" name="GPIO32" type="unspecified"/>
+        <pin num="8" name="SVN" type="unspecified"/>
+        <pin num="9" name="GPIO38" type="unspecified"/>
+        <pin num="10" name="GPIO37" type="unspecified"/>
+        <pin num="11" name="SVP" type="unspecified"/>
+        <pin num="12" name="3.3V" type="unspecified"/>
+        <pin num="13" name="GND" type="unspecified"/>
+        <pin num="14" name="GND" type="unspecified"/>
+        <pin num="15" name="GPIO21" type="unspecified"/>
+        <pin num="16" name="GPIO22" type="unspecified"/>
+        <pin num="17" name="GPIO17" type="unspecified"/>
+        <pin num="18" name="GPIO2" type="unspecified"/>
+        <pin num="19" name="GPIO15" type="unspecified"/>
+        <pin num="20" name="GPIO13" type="unspecified"/>
+        <pin num="21" name="GPIO12" type="unspecified"/>
+        <pin num="22" name="GND" type="unspecified"/>
+        <pin num="23" name="GND" type="unspecified"/>
+        <pin num="24" name="3.3V" type="unspecified"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols/Connector.kicad_sym</uri>
+    </library>
+    <library logical="ttgo">
+      <uri>/home/julius/Developpement/norns/norns_fork_pcb/norns_eko/footprint/ttgo-tdisplay-kicad-master/ttgo_esp32.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="TTGO1" pin="12" pinfunction="3.3V" pintype="unspecified"/>
+      <node ref="TTGO1" pin="24" pinfunction="3.3V" pintype="unspecified"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="TTGO1" pin="1" pinfunction="5V" pintype="unspecified"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="TTGO1" pin="13" pinfunction="GND" pintype="unspecified"/>
+      <node ref="TTGO1" pin="14" pinfunction="GND" pintype="unspecified"/>
+      <node ref="TTGO1" pin="22" pinfunction="GND" pintype="unspecified"/>
+      <node ref="TTGO1" pin="23" pinfunction="GND" pintype="unspecified"/>
+    </net>
+    <net code="4" name="unconnected-(TTGO1-Pad2)">
+      <node ref="TTGO1" pin="2" pinfunction="GND" pintype="unspecified"/>
+    </net>
+    <net code="5" name="unconnected-(TTGO1-Pad3)">
+      <node ref="TTGO1" pin="3" pinfunction="GPIO27" pintype="unspecified"/>
+    </net>
+    <net code="6" name="unconnected-(TTGO1-Pad4)">
+      <node ref="TTGO1" pin="4" pinfunction="GPIO26" pintype="unspecified"/>
+    </net>
+    <net code="7" name="unconnected-(TTGO1-Pad5)">
+      <node ref="TTGO1" pin="5" pinfunction="GPIO25" pintype="unspecified"/>
+    </net>
+    <net code="8" name="unconnected-(TTGO1-Pad6)">
+      <node ref="TTGO1" pin="6" pinfunction="GPIO33" pintype="unspecified"/>
+    </net>
+    <net code="9" name="unconnected-(TTGO1-Pad7)">
+      <node ref="TTGO1" pin="7" pinfunction="GPIO32" pintype="unspecified"/>
+    </net>
+    <net code="10" name="unconnected-(TTGO1-Pad8)">
+      <node ref="TTGO1" pin="8" pinfunction="SVN" pintype="unspecified"/>
+    </net>
+    <net code="11" name="unconnected-(TTGO1-Pad9)">
+      <node ref="TTGO1" pin="9" pinfunction="GPIO38" pintype="unspecified"/>
+    </net>
+    <net code="12" name="unconnected-(TTGO1-Pad10)">
+      <node ref="TTGO1" pin="10" pinfunction="GPIO37" pintype="unspecified"/>
+    </net>
+    <net code="13" name="unconnected-(TTGO1-Pad11)">
+      <node ref="TTGO1" pin="11" pinfunction="SVP" pintype="unspecified"/>
+    </net>
+    <net code="14" name="unconnected-(TTGO1-Pad15)">
+      <node ref="TTGO1" pin="15" pinfunction="GPIO21" pintype="unspecified"/>
+    </net>
+    <net code="15" name="unconnected-(TTGO1-Pad16)">
+      <node ref="TTGO1" pin="16" pinfunction="GPIO22" pintype="unspecified"/>
+    </net>
+    <net code="16" name="unconnected-(TTGO1-Pad17)">
+      <node ref="TTGO1" pin="17" pinfunction="GPIO17" pintype="unspecified"/>
+    </net>
+    <net code="17" name="unconnected-(TTGO1-Pad18)">
+      <node ref="TTGO1" pin="18" pinfunction="GPIO2" pintype="unspecified"/>
+    </net>
+    <net code="18" name="unconnected-(TTGO1-Pad19)">
+      <node ref="TTGO1" pin="19" pinfunction="GPIO15" pintype="unspecified"/>
+    </net>
+    <net code="19" name="unconnected-(TTGO1-Pad20)">
+      <node ref="TTGO1" pin="20" pinfunction="GPIO13" pintype="unspecified"/>
+    </net>
+    <net code="20" name="unconnected-(TTGO1-Pad21)">
+      <node ref="TTGO1" pin="21" pinfunction="GPIO12" pintype="unspecified"/>
+    </net>
+  </nets>
+</export>

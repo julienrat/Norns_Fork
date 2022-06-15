@@ -1,0 +1,23 @@
+"Source:","/home/julius/Developpement/norns/norns_fork_pcb/norns_eko/norns_eko/norns_eko.kicad_sch"
+"Date:","mar. 14 juin 2022 14:51:08"
+"Tool:","Eeschema (6.0.5)"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","4"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"","","J1","5V","Connector:Conn_01x10_Male","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal","~"
+"","","J2","3,3V","Connector:Conn_01x10_Male","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal","~"
+"","","J3","GND","Connector:Conn_01x10_Male","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal","~"
+"","","TTGO1","TTGO_ESP32_TDISPLAY_V1.1","ttgo:TTGO_ESP32_TDISPLAY_V1.1","",""
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"1","1","J1","5V","Connector:Conn_01x10_Male","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal","~"
+"2","1","J2","3,3V","Connector:Conn_01x10_Male","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal","~"
+"3","1","J3","GND","Connector:Conn_01x10_Male","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal","~"
+"4","1","TTGO1","TTGO_ESP32_TDISPLAY_V1.1","ttgo:TTGO_ESP32_TDISPLAY_V1.1","",""
