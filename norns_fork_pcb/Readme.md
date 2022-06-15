@@ -1,4 +1,8 @@
-Instructions de soudure :
+# Dossier PCB Norns Syst et Norns Eko
+![Norns destructuré](https://github.com/julienrat/Norns_Fork/blob/main/images/norns_poc.jpg)
+
+
+## Instructions de soudure :
 
 * Soudure Eko : [https://rawcdn.githack.com/julienrat/Norns_Fork/4d85948727feb62e3ad553d80d4d923476b15127/norns_fork_pcb/norns_eko/soudure_eko.html]
 
