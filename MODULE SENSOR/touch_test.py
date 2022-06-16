@@ -1,1 +1,0 @@
-from machine import Pin, TouchPadimport timetouch0 = TouchPad(Pin(4))release=Trueval_moy=0count = time.ticks_ms()#touch0.config(1000)while True :  if (touch0.read() < 200):    print("Ca touche !")    time.sleep(5)  
