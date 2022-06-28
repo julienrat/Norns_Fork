@@ -25,6 +25,8 @@ Inventaire besoins                                          J+D > OK (LISTE ICI)
 !!! À FAIRE !!! > Déplacer pinout (AudioIn) à coté du pinout (AudioOut)
 !!! À FAIRE !!! > arondis aux angles du PCB
 !!! À FAIRE !!! > ATTENTION POUR SOUDURE ENCODEURS >>> PLUS DE SURFACE EN FER AUTOUR DU TROU (COMME POUR TOUS LES AUTRES TROUS À SOUDER)
+!!! À FAIRE !!! > OÙ SE TROUVENT LES TROUS POUR ALIMENTER LE SYST ?
+!!! À FAIRE !!! > PRENDRE EN COMPTE LA PLACE DE LA BATTERIE
       *** ddd > Alimentation via pin-in
       *** ddd > Nouvelle implantation encodeurs (en BAS DE L'ÉCRAN)
       *** ddd > Implantation carte otion AMP60 pour logement Batterie Anker
