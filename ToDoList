@@ -20,32 +20,36 @@ Production Syst (1ère série de 5 avec rap3b+)               D
 
 -SySt_v2
 Inventaire besoins                                          J+D > OK (LISTE ICI)
-      ddd > Alimentation via pin-in
-      ddd > Changer switchs par ceux du Fates
-      ddd > Nouvelle implantation encodeurs (en diagonale)
-      ddd > Implantation carte otion AMP60 pour logement Batterie Anker
-      ddd > Demander Hifiberry pour Amp60 sans header et ADC Dac sans connecteurs audios
-      ddd > arondis aux angles du PCB
+
+!!! À FAIRE !!! > Changer switchs par ceux du Fates
+!!! À FAIRE !!! > Déplacer pinout (AudioIn) à coté du pinout (AudioOut)
+!!! À FAIRE !!! > arondis aux angles du PCB
+!!! À FAIRE !!! > ATTENTION POUR SOUDURE ENCODEURS >>> PLUS DE SURFACE EN FER AUTOUR DU TROU (COMME POUR TOUS LES AUTRES TROUS À SOUDER)
+      *** ddd > Alimentation via pin-in
+      *** ddd > Nouvelle implantation encodeurs (en BAS DE L'ÉCRAN)
+      *** ddd > Implantation carte otion AMP60 pour logement Batterie Anker
+      *** ddd > Demander Hifiberry pour Amp60 sans header et ADC Dac sans connecteurs audios
+      *** jjj > ATTENTION AUX TROUS POUR LES ENTRETOISE !!!!
       jjj > déplacer AUDIO IN d'un pas pour correspondre au header Hifiberry
       jjj > ajout d'une alimentation externe (bornier à visser) et microUSB module Coté cuivre
       jjj > ajouter repiquage line out Coté cuivre
-      jjj > revoir le design et ajout sérigraphie/logos
-      jjj > décaler connecteur écran de 1,27 vers la droite 
+      *** jjj > revoir le design et ajout sérigraphie/logos
+      *** jjj > décaler connecteur écran de 1,27 vers la droite 
 
-PCB + BOM                                                   J
+*** PCB + BOM                                                   J
 Production Syst (2èmé série de 5 avec rap4)                 D
 
 _Boites Plexi étanches_
-Inventaire besoins                                          S+D
-Dessiner boites                                             S+D
-Commandes plexi / colles / joints étanches / Inserts...     S+D
-Production boites                                           S+D
+*** Inventaire besoins                                          S+D
+*** Dessiner boites                                             S+D
+!!! À FAIRE !!! Commandes plexi / colles / joints étanches / Inserts...     S+D
+!!! À FAIRE !!! Production boites                                           S+D
 
 Assemblage global                                           D
 
 !!!AUTRES taches importante!!!                              J
     Compiler Norns_Fork pour raspberry pi 4
-    Documenter et re-déployer Norns Sidekick (brownser) / Orac (appli modulaire avec codes Native Instrument
+    Documenter et re-déployer Norns Sidekick (brownser) / Orac (appli modulaire avec codes Native Instrument)
     Allumage / éteignage à chaud Eko + Syst
     Séquençage allumage + connections automatiques Eko + syst
     read only ?
