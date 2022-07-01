@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "norns_enc")(type "Legacy")(uri "/home/julius/Developpement/norns/norns_fork_pcb/footprint/Enc_Bourns_PEC11R-4015F-N0024/eec.lib")(options "")(descr ""))
+)
