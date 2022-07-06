@@ -4,7 +4,7 @@
 
 ## Instructions de soudure :
 
-* Soudure Eko : [https://rawcdn.githack.com/julienrat/Norns_Fork/4d85948727feb62e3ad553d80d4d923476b15127/norns_fork_pcb/norns_eko/soudure_eko.html]
+* Soudure Eko : [https://rawcdn.githack.com/julienrat/Norns_Fork/main/norns_fork_pcb/norns_SYST_kicad_sources/ibom.html]
 
 ## Améliorations possibles :
 
