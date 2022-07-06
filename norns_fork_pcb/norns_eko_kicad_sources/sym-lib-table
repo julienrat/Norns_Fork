@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "ttgo")(type "Legacy")(uri "/home/julius/Developpement/norns/norns_fork_pcb/norns_eko/footprint/ttgo-tdisplay-kicad-master/ttgo_esp32.lib")(options "")(descr ""))
-)

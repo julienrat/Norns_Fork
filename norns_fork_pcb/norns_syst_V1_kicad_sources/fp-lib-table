@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name "norns_enc")(type "KiCad")(uri "/home/julius/Developpement/norns/norns_fork_pcb/footprint/Enc_Bourns_PEC11R-4015F-N0024/eec.pretty")(options "")(descr ""))
-  (lib (name "logos")(type "KiCad")(uri "/home/julius/Developpement/Norns_git/norns_fork_pcb/norns_syst_kicad_sources/footprint")(options "")(descr ""))
-)
