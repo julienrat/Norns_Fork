@@ -138,3 +138,5 @@ Pour changer le nom du Norns, il suffit d'editer le fichier hostname situé dans
 sudo nano /etc/hostname
 ```
 Modifier le nom , puis sauver en appuyant sur Ctrl+X puis Y pour sauver
+
+Il est aussi possible de modifier le nom directement sur la carte SD en ouvrant le repertoire /etc
