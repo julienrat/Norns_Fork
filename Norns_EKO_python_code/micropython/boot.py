@@ -13,9 +13,15 @@ import time
 
 sta_if = network.WLAN(network.STA_IF); sta_if.active(True)
 sta_if.scan()
-sta_if.connect('norns','nnnnnnnn')
+sta_if.connect('nornscool','nnnnnnnn')
 print("Waiting for Wifi connection")
-while not sta_if.isconnected(): time.sleep(1)
+timeout=0
+while not sta_if.isconnected():
+    time.sleep(1)
+    timeout=timeout+1
+    print(timeout)
+    if timeout > 10 :
+        break
 print("Connected")
 # fin du bloc à copier
 
