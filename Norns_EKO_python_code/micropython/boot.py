@@ -9,24 +9,8 @@ import os
 #Bloc de connexion au réseau Wifi
 import network
 import time
-
-
-sta_if = network.WLAN(network.STA_IF); sta_if.active(True)
-sta_if.scan()
-sta_if.connect('nornscool','nnnnnnnn')
-print("Waiting for Wifi connection")
-timeout=0
-while not sta_if.isconnected():
-    time.sleep(1)
-    timeout=timeout+1
-    print(timeout)
-    if timeout > 10 :
-        break
-print("Connected")
-# fin du bloc à copier
-
-
-
+ssid_name = 'nornscool'
+eko_name = "Yellow_1"
 spi = SoftSPI(
         baudrate=20000000,
         polarity=1,
@@ -44,6 +28,43 @@ display = st7789.ST7789(
     dc=Pin(16, Pin.OUT),
     backlight=Pin(4, Pin.OUT),
     rotation=1)
+
+display.fill(0)
+display.text(font, eko_name ,0,15 ,st7789.color565(255, 0, 255),st7789.color565(0, 0, 0))
+time.sleep(2)
+
+sta_if = network.WLAN(network.STA_IF); sta_if.active(True)
+sta_if.scan()
+sta_if.connect(ssid_name,'nnnnnnnn')
+print("Waiting for Wifi connection")
+display.fill(0)
+timeout=0
+while not sta_if.isconnected():
+    time.sleep(1)
+    timeout=timeout+1
+    print(timeout)
+    if timeout > 10 :
+        display.fill(st7789.color565(255, 0, 0))
+        display.text(font, "Not connected" ,0,15 ,st7789.color565(255, 0, 255),st7789.color565(255, 0, 0))
+        time.sleep(2)
+        break
+    else :
+        display.text(font, "Connecting to" ,0,15 ,st7789.color565(255, 0, 255),st7789.color565(0, 0, 0))
+        display.text(font, ssid_name ,0,40 ,st7789.color565(255, 0, 255),st7789.color565(0, 0, 0))
+        display.text(font, str(10-timeout) ,0,80 ,st7789.color565(255, 0, 255),st7789.color565(0, 0, 0))
+
+if sta_if.isconnected():
+    display.fill(0)
+    display.text(font, "Connected" ,0,15 ,st7789.color565(255, 0, 255),st7789.color565(0, 0, 0))
+    display.text(font, ssid_name ,0,40 ,st7789.color565(255, 0, 255),st7789.color565(0, 0, 0))
+    time.sleep(2)
+    print("Connected")
+
+# fin du bloc à copier
+
+
+
+
 
 def read(): #Sauvegarde de Main.py
     display.fill(0)
