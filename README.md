@@ -131,3 +131,10 @@ et on change la ligne 2 pour pointer sur /dev/fb1
 _boot.add_io('screen:fbdev', {dev='/dev/fb1'})
 ```
 On reboot et voilà !
+
+### TWEAKS !
+Pour changer le nom du Norns, il suffit d'editer le fichier hostname situé dans /etc/ 
+```
+sudo nano /etc/hostname
+```
+Modifier le nom , puis sauver en appuyant sur Ctrl+X puis Y pour sauver
