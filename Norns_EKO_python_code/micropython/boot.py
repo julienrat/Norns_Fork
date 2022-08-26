@@ -9,7 +9,8 @@ import os
 #Bloc de connexion au réseau Wifi
 import network
 import time
-ssid_name = 'nornscool'
+ssid_name = 'nornscool' #'nornscool'
+ssid_passwd = 'nnnnnnnn'#'nnnnnnnn'
 eko_name = "Yellow_1"
 spi = SoftSPI(
         baudrate=20000000,
@@ -35,7 +36,7 @@ time.sleep(2)
 
 sta_if = network.WLAN(network.STA_IF); sta_if.active(True)
 sta_if.scan()
-sta_if.connect(ssid_name,'nnnnnnnn')
+sta_if.connect(ssid_name,ssid_passwd)
 print("Waiting for Wifi connection")
 display.fill(0)
 timeout=0
@@ -92,3 +93,4 @@ time.sleep(2)
 if(pin1.value()==0 or pin2.value()==0):
     print("Enter menu")
     import core.Menu.py
+
