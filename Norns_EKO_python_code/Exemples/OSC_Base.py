@@ -4,7 +4,7 @@ import random
 from machine import Pin,ADC, SoftSPI
 import lib.st7789py as st7789
 from fonts.romfonts import vga1_16x16 as font
-
+from fonts.romfonts import vga1_8x8 as mini_font
 ip_adress = '192.168.0.33' #adresse ip du Norns defaut : 10.42.0.1
 port = 10111 #port du Norns defaut : 10111
 pot = ADC(Pin(37)) #Broche du capteur analogique
@@ -36,11 +36,17 @@ while True :
         b = Bundle()
         b.add(create_message("/params/cutoff", random_value)) #envoi des valeurs en OSC
         osc.send(b)
+        display.text(mini_font, "WIFI OK               ",0,110 ,st7789.color565(24, 255, 0),st7789.color565(0, 0, 0))
+
     except Exception as e:
         print("ERROR : "+str(e))
+        print(e)
+        display.text(mini_font, "WIFI PB TRY TO CONNECT",0,110 ,st7789.color565(255, 0, 0),st7789.color565(0, 0, 0))
+
     print("Random value : ",random_value)
     ######## AFFICHAGE OLED #######################
     display.text(font, "ENVOI OSC ",0,0 ,st7789.color565(255, 0, 255),st7789.color565(0, 0, 0))
     display.text(font, str(random_value),0,40 ,st7789.color565(255, 0, 255),st7789.color565(0, 0, 0))
 
     sleep(0.5)
+
